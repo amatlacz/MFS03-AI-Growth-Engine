@@ -32,6 +32,13 @@ Zarejestruj się na każdej z poniższych platform. Użyj tego samego adresu e-m
 
 ### 2a. Node.js (wymagany do uruchamiania aplikacji Next.js)
 
+> 💡 **Czym jest terminal?** Terminal (zwany też "wierszem poleceń" lub "konsolą") to tekstowy interfejs do wydawania poleceń komputerowi. Nie musisz go rozumieć w całości – będziesz w nim wpisywać gotowe komendy.
+>
+> **Jak otworzyć terminal:**
+> - **Mac:** naciśnij `Cmd + Spacja`, wpisz `Terminal` i naciśnij Enter
+> - **Windows:** naciśnij `Win + R`, wpisz `cmd` i naciśnij Enter  
+>   *lub* kliknij prawym przyciskiem myszy na menu Start → **Terminal**
+
 Node.js to środowisko uruchomieniowe dla aplikacji – bez niego Twój komputer nie "rozumie" kodu Next.js.
 
 **➡️ Pobierz Node.js w wersji LTS (Long Term Support):**  
@@ -77,23 +84,9 @@ Edytor kodu z wbudowaną AI – tu będziesz pisać i edytować kod z pomocą as
 
 ---
 
-## Krok 3 – Instalacja zależności projektu (Next.js)
+## Krok 3 – Test końcowy: uruchom przykładową aplikację
 
-> ℹ️ Ten krok wykonujesz **po sklonowaniu repozytorium** w kroku 4. Opisujemy go tutaj z wyprzedzeniem, żebyś wiedział/a co czeka.
-
-W terminalu Cursora, będąc w folderze projektu, wpisz:
-
-```bash
-npm install
-```
-
-Ta komenda pobiera wszystkie "klocki", z których zbudowana jest aplikacja. Może zająć chwilę – to normalne.
-
----
-
-## Krok 4 – Test końcowy: uruchom przykładową aplikację
-
-To jest Twój sprawdzian czy wszystko działa. Jeśli zobaczysz stronę w przeglądarce – jesteś gotowy/a na zajęcia. 🎉
+To jest sprawdzian czy wszystko działa. Jeśli zobaczysz stronę w przeglądarce – jesteś gotowy/a na zajęcia. 🎉
 
 ### Krok po kroku:
 
@@ -102,7 +95,10 @@ To jest Twój sprawdzian czy wszystko działa. Jeśli zobaczysz stronę w przegl
 - Otwórz GitHub Desktop
 - Kliknij `File` → `Clone repository...`
 - Wybierz zakładkę **"URL"**
-- Wklej adres tego repozytorium (skopiuj z paska przeglądarki lub użyj przycisku **"Code"** na stronie GitHub)
+- Wklej poniższy adres:
+  ```
+  https://github.com/amatlacz/MFS03-AI-Growth-Engine.git
+  ```
 - Wybierz folder na dysku i kliknij **"Clone"**
 
 **2. Otwórz projekt w Cursor**
@@ -162,6 +158,19 @@ Jeśli `localhost:3000` nie działa, sprawdź w terminalu – Next.js podpowie i
 ### Cursor nie pokazuje opcji „Open in Cursor" w GitHub Desktop (Mac)
 
 Otwórz Cursor ręcznie: `File` → `Open Folder...` → wskaż folder z repozytorium.
+
+---
+
+### Masz inny problem? Zapytaj AI!
+
+Zanim napiszesz do mnie – spróbuj najpierw zapytać AI. Skopiuj treść błędu z terminala i wklej do jednego z poniższych narzędzi. Poradzą sobie z 95% problemów instalacyjnych:
+
+- [ChatGPT](https://chatgpt.com)
+- [Claude](https://claude.ai)
+- [Gemini](https://gemini.google.com)
+- [Perplexity](https://www.perplexity.ai)
+
+> 💬 **Jeśli AI nie pomoże** – napisz do mnie. Jestem dostępny na **MS Teams** lub **LinkedIn**. Odezwij się przed zajęciami, żebyśmy zdążyli rozwiązać problem na czas.
 
 ---
 
